@@ -13,6 +13,7 @@ export default antfu({
     semi: true,
     quotes: "double",
   },
+  ignores: [".github/workflows"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
